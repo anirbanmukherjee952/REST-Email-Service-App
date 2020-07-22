@@ -15,7 +15,6 @@ Application features:
 	Any web application has two parts: front-end and back-end
 	front-end: view
 	back-end: controller
-	
 	Typical MVC pattern does this:
 	-> binds front-end with back-end; then what's the problem?
 	-> better UI/UX
