@@ -1,0 +1,44 @@
+Application features:
+=====================
+
+1. RESTful API: 
+	>> REST stands for REpresentation State Transform 
+	>> API stands for Application Programmer Interface
+	
+	>> Controller will not return view anymore!
+	>> Controller will only return "data"
+	>> Representation of the "data":
+		1. JSON or JavaScript Object Notation
+		2. XML
+	
+	>> WHY RESTful API?
+	Any web application has two parts: front-end and back-end
+	front-end: view
+	back-end: controller
+	
+	Typical MVC pattern does this:
+	-> binds front-end with back-end; then what's the problem?
+	-> better UI/UX
+	
+	
+2. Email-contact registration:
+	Required data-
+	>> Id
+	>> Name
+	>> Email-address
+	>> Date-of-Birth
+	
+	Store these data in database.
+	
+3. Sending Email Message with Attachment:
+	Required data-
+	>> Sender's Email Address
+	>> Receiver's Email Address
+	>> Email Subject
+	>> Email Body
+	>> Email Attachment (optional)
+	
+4. Automated Birthday Wishes:
+	Send automated birthday wish Email messages to my Email-contacts.
+	
+5. Authenticate before registration and sending email.

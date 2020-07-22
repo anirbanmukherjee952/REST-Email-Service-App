@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.demo</groupId>
-	<artifactId>RESTEmailServiceApp</artifactId>
+	<artifactId>Email-Service-API</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-	<name>SpringBootDemoWebapp-1</name>
-	<description>Demo project for Spring Boot</description>
+	<packaging>jar</packaging>
+	<name>Email-Service-API</name>
+	<description></description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -61,7 +61,18 @@
 		<dependency>
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
-		    <version>8.0.15</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator -->
+		<dependency>
+		    <groupId>org.hibernate.validator</groupId>
+		    <artifactId>hibernate-validator</artifactId>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
 		
 	</dependencies>
